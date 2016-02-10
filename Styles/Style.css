@@ -1,0 +1,443 @@
+html, body {
+width:100%;
+margin:0px;
+padding:0px;
+border:0px;
+height:100%;
+}
+
+@media only screen and (max-width: 1030px) { 
+  #header { 
+    display: none; 
+  }
+}
+
+@media only screen and (max-width:875px) {
+  #maps img {
+  	display: none;
+  	}
+}
+
+
+#header {
+background-color: #FFF;
+width:100%;
+height:100px;
+}
+
+
+.dividers {
+color:#D80000;
+font-size:24px;
+}
+
+#header a {
+color:#D80000;
+padding:5px;
+line-height:100px;
+font-size:24px;
+text-decoration:none;
+}
+
+#header a:hover {
+font-size:26px;
+}
+
+#return {
+position:fixed;
+text-align:center;
+bottom:10px;
+left:10px;
+z-index:22;
+height:40px;
+width:110px;
+background-color:#D80000;
+border-radius:15px;
+}
+
+#return a {
+line-height:40px;
+color:#FFF;
+font-weight:bold;
+}
+
+
+#picture {
+width:100%;
+height:450px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Pictures/IronHorse.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:inline-block;
+}
+
+#picture h1 {
+	font-size:48px;
+	font-family: Copperplate;
+	color:white;
+	padding:0px;
+	line-height:400px;
+	text-align:center;
+}
+
+#about {
+width:100%;
+margin:50px auto;
+text-align:center;
+}
+
+#about p {
+color:black;
+font-size:24px;
+font-family: Arial;
+}
+
+#about a {
+visited:black;
+font-size:26px;
+font-family: Arial;
+color:#D80000;
+}
+
+.logo {
+float:left;
+padding-left:30px;
+}
+
+.semper {
+float:right;
+padding-right:30px;
+}
+
+#info {
+width:100%;
+border-bottom:2px solid black;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url(../Pictures/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+}
+
+.box {
+  border-radius:25px;
+  display: inline-block;
+  vertical-align:middle;
+  text-align:center;
+  width: 250px;
+  height: 250px;
+  margin: 1em;
+}
+
+.box h3 {
+font-size:22px;
+font-family:Optima;
+}
+
+.box p {
+padding-left:10px;
+padding-right:10px;
+}
+
+.box a {
+color:#D80000;
+}
+
+.box a:hover {
+color:#0D5E9F;
+}
+
+#start {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/start_line.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#finish {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/finish_line.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#course {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/course.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#support {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/first_aid.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#clock {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/clock.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#bag {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/bag.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#spectators {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/spectators.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#weather {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/weather.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#directions {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/directions.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#travel {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/travel.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#volunteers {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/volunteers.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#giveaways {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../Pictures/medal.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+	color:white;
+}
+
+#link {
+width:100%;
+height:30px;
+text-align:center;
+}
+
+#link a {
+color:#000000;
+margin 0 auto;
+font-size:40px;
+background-color:#ffffff;
+border:2px solid #000000;
+text-decoration: none;
+}
+
+
+#header table caption {
+color:black;
+font-size:28px;
+}
+
+.numbers {
+    padding: 0px;
+    width: 45px;
+    text-align: center;
+    font-family: Arial;             
+    font-size: 34px;
+    font-weight: bold;    /* options are normal, bold, bolder, lighter */
+    font-style: normal;   /* options are normal or italic */
+    color: black;       /* change color using the hexadecimal color codes for HTML */
+}
+.title {    /* the styles below will affect the title under the numbers, i.e., “Days”, “Hours”, etc. */
+    border-style: none;
+    padding: 0px 0px 3px 0px;
+    width: 45px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;    /* options are normal, bold, bolder, lighter */
+    color: black;       /* change color using the hexadecimal color codes for HTML */
+}
+
+#table {
+	float:right;
+    width: 400px;
+    height: 70px;
+    position: relative;   /* leave as "relative" to keep timer centered on your page, or change to "absolute" then change the values of the "top" and "left" properties to position the timer */
+	z-index:2;
+}
+
+
+
+#registration {
+width:100%;
+height:auto;
+text-align:center;
+}
+
+#registration h1 {
+font-family: Optima;
+}
+
+#registration h3 {
+padding-top:150px;
+}
+
+#registration p {
+margin:0 30% 10px 30%;
+}
+
+
+#registration table {
+float:left;
+}
+
+.leftTable {
+border-right:2px solid black;
+}
+
+#schedule {
+float:right;
+}
+
+#registration table caption {
+color:#0D5E9F;
+font-size:20px;
+text-decoration:underline;
+}
+
+#registration a {
+font-size:24px;
+color:red;
+}
+
+#maps {
+width:100%;
+border-bottom:2px solid black;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url(../Pictures/bg3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+}
+
+#maps h1 {
+color:white;
+padding-top:20px;
+font-family:Optima;
+}
+
+.routes {
+	display: inline-block;
+	vertical-align:middle;
+	padding:20px;
+	text-align:center;
+}
+
+#sponsors {
+width:100%;
+height:auto;
+text-align:center;
+border-bottom:2px solid black;
+}
+
+#sponsors h1 {
+font-family:Optima;
+}
+
+#sponsors p {
+padding-bottom:0px;
+}
+
+#sponsors a {
+color:#D80000;
+}
+
+.sponsors {
+  display: inline-block;
+  vertical-align:middle;
+  padding-left:20px;
+  text-align:center;
+}
+
+#ender {
+background-color:#282828;
+display:inline-block;
+width:100%;
+height:60px;
+text-align:center;
+}
+
+#ender a {
+line-height:60px;
+color:#D80000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
