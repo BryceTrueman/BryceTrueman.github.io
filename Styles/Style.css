@@ -104,11 +104,13 @@ color:#D80000;
 .logo {
 float:left;
 padding-left:30px;
+padding-right:15px;
 }
 
 .semper {
 float:right;
 padding-right:30px;
+padding-left:10px;
 }
 
 #info {
