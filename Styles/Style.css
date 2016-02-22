@@ -80,6 +80,7 @@ height:450px;
   -o-background-size: cover;
   background-size: cover;
   display:inline-block;
+  @media (max-width: @iphone-screen) { background-attachment: scroll; }
 }
 
 #picture h1 {
