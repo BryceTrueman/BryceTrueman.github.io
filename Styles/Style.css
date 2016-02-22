@@ -6,22 +6,24 @@ border:0px;
 height:100%;
 }
 
+/* Takes out countdown from header to fit better */
 @media only screen and (max-width: 1100px) { 
   #header table { 
     display: none; 
   }
   #header {
-    text-align:center;
+  text-align:center;
   }
 }
 
+/* Takes out the elevation change pictures */
 @media only screen and (max-width:875px) {
   #maps img {
   	display: none;
   	}
 }
 
-
+/* --------------------------------------------------Header-------------------------------------- */
 #header {
 background-color: #FFF;
 width:100%;
@@ -46,6 +48,7 @@ text-decoration:none;
 font-size:26px;
 }
 
+/* ---------------------------------------------Fixed Return Button--------------------------------- */
 #return {
 position:fixed;
 text-align:center;
@@ -64,15 +67,18 @@ color:#FFF;
 font-weight:bold;
 }
 
-
+/* ---------------------------------------------Title Picture--------------------------------- */
 #picture {
 width:100%;
 height:450px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Pictures/IronHorse.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Pictures/IronHorse.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
   display:inline-block;
 }
 
@@ -85,6 +91,7 @@ height:450px;
 	text-align:center;
 }
 
+/* ---------------------------------------------About Section--------------------------------- */
 #about {
 width:100%;
 margin:50px auto;
@@ -118,6 +125,7 @@ padding-left:10px;
 width:250px;
 }
 
+/* ---------------------------------------------Info Boxes--------------------------------- */
 #info {
 width:100%;
 border-bottom:2px solid black;
@@ -277,22 +285,7 @@ color:#0D5E9F;
 	color:white;
 }
 
-#link {
-width:100%;
-height:30px;
-text-align:center;
-}
-
-#link a {
-color:#000000;
-margin 0 auto;
-font-size:40px;
-background-color:#ffffff;
-border:2px solid #000000;
-text-decoration: none;
-}
-
-
+/* ----------------------------------------------Registration------------------------------------- */
 #header table caption {
 color:black;
 font-size:28px;
@@ -326,7 +319,6 @@ font-size:28px;
     position: relative;   /* leave as "relative" to keep timer centered on your page, or change to "absolute" then change the values of the "top" and "left" properties to position the timer */
 	z-index:2;
 }
-
 
 
 #registration {
@@ -371,6 +363,8 @@ font-size:24px;
 color:red;
 }
 
+
+/* -------------------------------------------Maps------------------------------------------------ */
 #maps {
 width:100%;
 border-bottom:2px solid black;
@@ -395,6 +389,7 @@ font-family:Optima;
 	text-align:center;
 }
 
+/* ---------------------------------------------Sponsors----------------------------------------- */
 #sponsors {
 width:100%;
 height:auto;
@@ -421,6 +416,7 @@ color:#D80000;
   text-align:center;
 }
 
+/* ----------------------------------------------End Links------------------------------------------ */
 #ender {
 background-color:#282828;
 display:inline-block;
