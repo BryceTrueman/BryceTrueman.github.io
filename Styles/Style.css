@@ -19,11 +19,8 @@ height:100%;
   #maps img {
   	display: none;
   	}
-  .logo {
-  
-  }
-  .semper {
-  	
+  #picture {
+  	background-image: auto 100%;
   }
 }
 
@@ -80,7 +77,6 @@ height:450px;
   -o-background-size: cover;
   background-size: cover;
   display:inline-block;
-  @media (max-width: @iphone-screen) { background-size: auto 100% }
 }
 
 #picture h1 {
