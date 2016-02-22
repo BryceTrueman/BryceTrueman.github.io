@@ -11,7 +11,7 @@ height:100%;
     display: none; 
   }
   #header {
-  text-align:center;
+    text-align:center;
   }
 }
 
@@ -19,9 +19,6 @@ height:100%;
   #maps img {
   	display: none;
   	}
-  #picture {
-  	background-image: auto 100%;
-  }
 }
 
 
