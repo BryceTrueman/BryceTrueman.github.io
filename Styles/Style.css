@@ -6,9 +6,12 @@ border:0px;
 height:100%;
 }
 
-@media only screen and (max-width: 1030px) { 
-  #header { 
+@media only screen and (max-width: 1100px) { 
+  #header table { 
     display: none; 
+  }
+  #header {
+  text-align:center;
   }
 }
 
@@ -16,6 +19,12 @@ height:100%;
   #maps img {
   	display: none;
   	}
+  .logo {
+  
+  }
+  .semper {
+  	
+  }
 }
 
 
@@ -105,12 +114,14 @@ color:#D80000;
 float:left;
 padding-left:30px;
 padding-right:15px;
+width:260px;
 }
 
 .semper {
 float:right;
 padding-right:30px;
 padding-left:10px;
+width:250px;
 }
 
 #info {
