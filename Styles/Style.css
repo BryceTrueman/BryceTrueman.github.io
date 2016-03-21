@@ -96,6 +96,8 @@ height:450px;
 /* ---------------------------------------------About Section--------------------------------- */
 #about {
 width:100%;
+height:auto;
+min-height:275px;
 margin:50px auto;
 text-align:center;
 }
