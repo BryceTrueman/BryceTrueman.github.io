@@ -6,6 +6,11 @@ border:0px;
 height:100%;
 }
 
+@viewport {
+   width: device-width;
+   zoom:1;
+}
+
 /* Takes out countdown from header to fit better */
 @media only screen and (max-width: 1150px) { 
   #header table { 
