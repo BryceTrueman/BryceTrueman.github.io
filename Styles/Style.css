@@ -97,6 +97,7 @@ height:450px;
   #picture {      
     /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg);*/
     background-image:url(Pictures/IronHorse.jpg);
+    background-color:red;
   }
 }
 
