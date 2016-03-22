@@ -74,15 +74,35 @@ font-family: Candara;
 #picture {
 width:100%;
 height:450px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Pictures/IronHorse.jpg); 
+    text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 601px) {
+  #picture {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg); 
     background-repeat: no-repeat; 
+    background-attachment: fixed;
     background-position: center;
-    
     webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-  display:inline-block;
+  }
+}
+
+@media (max-width: 600px) {
+  #picture {      
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
 }
 
 #picture h1 {
@@ -90,8 +110,6 @@ height:450px;
 	font-family: Copperplate;
 	color:white;
 	padding:0px;
-	line-height:400px;
-	text-align:center;
 }
 
 /* ---------------------------------------------About Section--------------------------------- */
@@ -99,7 +117,6 @@ height:450px;
 width:100%;
 height:auto;
 min-height: 275px;
-margin:50px auto;
 text-align:center;
 }
 
@@ -134,12 +151,28 @@ width:250px;
 #info {
 width:100%;
 border-bottom:2px solid black;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url(../Pictures/bg2.jpg) no-repeat center center fixed; 
+background-color:black;
+  text-align:center;
+}
+
+@media (min-width: 601px) {
+  #info {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../unsplash/pic6.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align:center;
+  }
+}
+
+@media (max-width: 600px) {
+  #info {      
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../unsplash/pic6.jpg) center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
 }
 
 .box {
@@ -374,13 +407,32 @@ color:red;
 #maps {
 width:100%;
 border-bottom:2px solid black;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85)), url(../Pictures/bg3.jpg) 
-  no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   text-align:center;
+}
+
+@media (min-width: 601px) {
+  #maps {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/bg2.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
+}
+
+@media (max-width: 600px) {
+  #maps {      
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/bg2.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
 }
 
 #maps h1 {
@@ -389,11 +441,25 @@ padding-top:20px;
 font-family:Optima;
 }
 
-.routes {
-	display: inline-block;
-	vertical-align:middle;
-	padding:20px;
-	text-align:center;
+.maps iframe{
+    pointer-events: none;
+}
+
+.map_info {
+  color:#fff;
+  margin:0px;
+padding:0px;
+border:0px;
+font-family:Optima;
+}
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:700px;
+   height:550px; /* your iframe height */
+   top:550px;  /* your iframe height */
+   margin-top:-550px;  /* your iframe height */
 }
 
 /* ---------------------------------------------Sponsors----------------------------------------- */
