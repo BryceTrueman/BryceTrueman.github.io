@@ -74,6 +74,19 @@ function countdown(yr,m,d,hr,min){
     }
 }
 
+
+$(document).ready(function() {
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
+    
+    $( ".maps" ).mouseleave(function() {
+      $('.maps iframe').css("pointer-events", "none"); 
+    });
+ });  
+
+
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -81,7 +94,7 @@ function countdown(yr,m,d,hr,min){
 
   ga('create', 'UA-75413919-1', 'auto');
   ga('send', 'pageview');
-  
+
 </script>
 </head>
 <body onload="countdown(year,month,day,hour,minute)">
@@ -205,7 +218,7 @@ function countdown(yr,m,d,hr,min){
 		    <th>Race</th>
 		    <th>Jan 1 - Feb 29</th> 
 		    <th>Mar 1 - Apr 29</th>
-		    <th>May 1 - May 21</th>
+		    <th>May 1 - May 22</th>
 	      </tr>
 		  <tr>
 		    <td>Half Marathon</td>
@@ -260,13 +273,19 @@ function countdown(yr,m,d,hr,min){
 <div id="maps">
 	<a name="Routes"></a> 
 	<div class="route">
-	<h1>Half Marathon Route</h1>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d12597.86266812921!2d-122.05485422827806!3d37.872791211987234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d37.8120614!2d-121.97766639999999!4m3!3m2!1d37.8786412!2d-122.05078209999999!5e0!3m2!1sen!2sus!4v1454623612514" width="700" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<h1>Half Marathon Route</h1>
+		<p class="map_info">Click on the Map to Enable Functionality</p>
+		<div class='embed-container  maps'>
+			<iframe id="map_embed" src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d12597.86266812921!2d-122.05485422827806!3d37.872791211987234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d37.8120614!2d-121.97766639999999!4m3!3m2!1d37.8786412!2d-122.05078209999999!5e0!3m2!1sen!2sus!4v1454623612514" width="700" height="550" frameborder="0" style="border:0"></iframe>
+		</div>
 		<img src="Pictures/halfElev.jpg">
 	</div>
 	<div class="route">
-	<h1>10k Route</h1>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d12604.882314260363!2d-122.0194061539372!3d37.83172165998367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d37.8120614!2d-121.97766639999999!4m3!3m2!1d37.8368598!2d-122.02212089999999!5e0!3m2!1sen!2sus!4v1454624021087" width="700" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<h1>10k Route</h1>
+		<p class="map_info">Click on the Map to Enable Functionality</p>
+		<div class='embed-container  maps'>
+			<iframe id="map_embed" src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d12604.882314260363!2d-122.0194061539372!3d37.83172165998367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d37.8120614!2d-121.97766639999999!4m3!3m2!1d37.8368598!2d-122.02212089999999!5e0!3m2!1sen!2sus!4v1454624021087" width="700" height="550" frameborder="0" style="border:0"></iframe>
+		</div>
 		<img src="Pictures/6kElev.jpg" style="padding-bottom:20px">
 	</div>
 </div>
