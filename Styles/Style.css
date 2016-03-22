@@ -82,22 +82,23 @@ height:450px;
 
 @media (min-width: 601px) {
   #picture {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg); 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-position: center;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg); */
+    /*background-repeat: no-repeat; */
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover; */
+    background-image:url(Pictures/IronHorse.jpg);
   }
 }
 
 @media only screen and (max-device-width : 600px) {
   #picture {      
     /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg);*/
-    background-image:url(Pictures/IronHorse.jpg);
-    /*background-color:red;*/
+    /*background-image:url(Pictures/IronHorse.jpg);*/
+    background-color:red;
   }
 }
 
