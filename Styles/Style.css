@@ -47,7 +47,7 @@ font-family: Geneva;
 }
 
 #header a:hover {
-font-size:23px;
+color:#282828;
 }
 
 /* ------------------------------------------Mobile Device Header--------------------------------- */
@@ -268,7 +268,7 @@ font-size:14px;
 
 .box a {
 color:#D80000;
-font-size:13px;
+font-size:14px;
 }
 
 .box a:hover {
