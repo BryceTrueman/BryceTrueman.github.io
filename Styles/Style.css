@@ -565,6 +565,10 @@ padding-bottom:0px;
 color:#D80000;
 }
 
+#sponsors a:hover {
+  color:#282828;
+}
+
 .sponsors {
   display: inline-block;
   vertical-align:middle;
