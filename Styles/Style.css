@@ -399,7 +399,6 @@ border-bottom:2px solid black;
   text-align:center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/bg2.jpg); 
   background-repeat: no-repeat; 
-    background-attachment: fixed;
     background-position: center;
     background-size: cover; 
 }
