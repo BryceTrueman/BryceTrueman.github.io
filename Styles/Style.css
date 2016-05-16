@@ -8,11 +8,21 @@ height:100%;
 
 /* Takes out countdown from header to fit better */
 @media screen and (max-width: 1150px) { 
-  #header table { 
-    display: none; 
-  }
   #header {
   text-align:center;
+  height:auto;
+  }
+  #table {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1151px) {
+  #table {
+    float: right;
+  }
+  #header {
+    height: 100px;
   }
 }
 
@@ -27,7 +37,6 @@ height:100%;
 #header {
 background-color: #FFF;
 width:100%;
-height:100px;
 font-family: Geneva;
 }
 
@@ -50,72 +59,39 @@ font-family: Geneva;
 color:#282828;
 }
 
-/* ------------------------------------------Mobile Device Header--------------------------------- */
-.site-navigation {
-    display: block;
+#header table caption {
+color:black;
+font-size:28px;
+}
+
+#table {
+    width: 500px;
+    height: 70px;
+    /*position: relative;    leave as "relative" to keep timer centered on your page, 
+    or change to "absolute" then change the values of the "top" and "left" properties to position the timer */
+  z-index:2;
+}
+
+.numbers {
+    padding: 0px;
+    width: 45px;
+    text-align: center;             
+    font-size: 34px;
+    font-weight: bold;    /* options are normal, bold, bolder, lighter */
+    font-style: normal;   /* options are normal or italic */
+    color: black;       /* change color using the hexadecimal color codes for HTML */
+}
+.title {    /* the styles below will affect the title under the numbers, i.e., “Days”, “Hours”, etc. */
+    border-style: none;
+    padding: 0px 0px 3px 0px;
+    width: 45px;
+    text-align: center;
     font-family: Geneva;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 40px;
+    font-size: 11px;
+    font-weight: bold;    /* options are normal, bold, bolder, lighter */
+    color: black;       /* change color using the hexadecimal color codes for HTML */
 }
 
-.site-navigation ul {
-  background: #D80000;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-}
-
-.site-navigation li {
-    color: #fff;
-  background: #D80000;
-    display: block;
-    float: left;
-    margin: 0 2px 0 0;
-    padding: 12px;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-  
-.site-navigation li a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-
-.site-navigation li:hover {
-    @include transition(background, 0.2s);
-    background: #D80000;
-    cursor: pointer;
-}
-
-.site-navigation ul li ul {
-    background: #D80000;
-    visibility: hidden;
-    float: left;
-  min-width: 150px;
-    position: absolute;
-  transition: visibility 0.65s ease-in;
-  margin-top:12px;
-    left: 0;
-    z-index: 999;
-}
-
-.site-navigation ul li:hover > ul,
-.site-navigation ul li ul:hover {
-   visibility: visible;
-}
-
-.site-navigation ul li ul li {
-    clear: both;
-    padding: 5px 0 5px 18px;
-  width: 100%;
-}
-
-.site-navigation ul li ul li:hover {
-    background: #800000;
-}
 /* ------------------------------------------Fixed Return Button--------------------------------- */
 #return {
 position:fixed;
@@ -407,41 +383,6 @@ color:#0D5E9F;
 }
 
 /* ----------------------------------------------Registration------------------------------------- */
-#header table caption {
-color:black;
-font-size:28px;
-}
-
-.numbers {
-    padding: 0px;
-    width: 45px;
-    text-align: center;             
-    font-size: 34px;
-    font-weight: bold;    /* options are normal, bold, bolder, lighter */
-    font-style: normal;   /* options are normal or italic */
-    color: black;       /* change color using the hexadecimal color codes for HTML */
-}
-.title {    /* the styles below will affect the title under the numbers, i.e., “Days”, “Hours”, etc. */
-    border-style: none;
-    padding: 0px 0px 3px 0px;
-    width: 45px;
-    text-align: center;
-    font-family: Geneva;
-    font-size: 11px;
-    font-weight: bold;    /* options are normal, bold, bolder, lighter */
-    color: black;       /* change color using the hexadecimal color codes for HTML */
-}
-
-#table {
-	float:right;
-    width: 400px;
-    height: 70px;
-    position: relative;   /* leave as "relative" to keep timer centered on your page, 
-    or change to "absolute" then change the values of the "top" and "left" properties to position the timer */
-	z-index:2;
-}
-
-
 #registration {
 width:100%;
 height:auto;
