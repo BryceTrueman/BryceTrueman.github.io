@@ -126,7 +126,7 @@ height:450px;
   display:flex;
   align-items: center;
   justify-content: center;
-      background: url(../Pictures/IronHorse.jpg); 
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Pictures/IronHorse.jpg); 
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover; 
