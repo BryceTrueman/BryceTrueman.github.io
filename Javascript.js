@@ -46,9 +46,9 @@ time zone offset.
 */
 
 var current="Race is Here!";    //-->enter what you want the script to display when the target date and time are reached, limit to 20 characters
-var year=2016;    //-->Enter the count down target date YEAR
+var year=2017;    //-->Enter the count down target date YEAR
 var month=5;      //-->Enter the count down target date MONTH
-var day=28;       //-->Enter the count down target date DAY
+var day=27;       //-->Enter the count down target date DAY
 var hour=8;      //-->Enter the count down target date HOUR (24 hour clock)
 var minute=00;    //-->Enter the count down target date MINUTE
 var tz=-7;        //-->Offset for your timezone in hours from UTC (see http://wwp.greenwichmeantime.com/index.htm to find the timezone offset for your location)
