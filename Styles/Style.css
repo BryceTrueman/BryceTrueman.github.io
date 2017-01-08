@@ -38,7 +38,7 @@ height:100%;
 #header {
 background-color: #FFF;
 width:100%;
-font-family: Geneva;
+font-family: 'Century Gothic';
 }
 
 
@@ -53,7 +53,7 @@ padding:5px;
 line-height:100px;
 font-size:20px;
 text-decoration:none;
-font-family: Geneva;
+font-family: 'Century Gothic';
 }
 
 #header a:hover {
@@ -87,7 +87,7 @@ font-size:28px;
     padding: 0px 0px 3px 0px;
     width: 45px;
     text-align: center;
-    font-family: Geneva;
+    font-family: 'Century Gothic';
     font-size: 11px;
     font-weight: bold;    /* options are normal, bold, bolder, lighter */
     color: black;       /* change color using the hexadecimal color codes for HTML */
@@ -110,7 +110,7 @@ border-radius:15px;
 line-height:40px;
 color:#FFF;
 font-size:14px;
-font-family: Geneva;
+font-family: 'Century Gothic';
 text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ height:450px;
 
 #picture h1 {
   font-size:48px;
-  font-family: Gill Sans;
+  font-family: 'Century Gothic';
   font-weight:100;
   color:white;
   padding:0px;
@@ -167,7 +167,7 @@ margin-left:9em;
 
 #about_content p {
   font-size:18px;
-  font-family: Geneva;
+  font-family: 'Century Gothic';
   color:black;
   margin-right:9em;
   margin-left: 3em;
@@ -194,7 +194,7 @@ background-color:black;
   width: 250px;
   height: 250px;
   margin: 1em;
-  font-family:Geneva;
+  font-family:'Century Gothic';
 }
 
 .box h3 {
@@ -352,11 +352,11 @@ color:#0D5E9F;
 width:100%;
 height:auto;
 text-align:center;
-font-family:Geneva;
+font-family:'Century Gothic';
 }
 
 #registration h1 {
-font-family: Geneva;
+font-family: 'Century Gothic';
 }
 
 #registration h3 {
@@ -406,7 +406,7 @@ border-bottom:2px solid black;
 #maps h1 {
 color:white;
 padding-top:20px;
-font-family:Geneva;
+font-family: 'Century Gothic';
 }
 
 .maps iframe{
@@ -418,7 +418,7 @@ font-family:Geneva;
   margin:0px;
 padding:0px;
 border:0px;
-font-family:Geneva;
+font-family: 'Century Gothic';
 }
 
 .overlay {
@@ -436,11 +436,11 @@ width:100%;
 height:auto;
 text-align:center;
 border-bottom:2px solid black;
-font-family: Geneva;
+font-family: 'Century Gothic';
 }
 
 #sponsors h1 {
-font-family:Optima;
+font-family: 'Century Gothic';
 }
 
 #sponsors p {
@@ -469,7 +469,7 @@ display:inline-block;
 width:100%;
 height:60px;
 text-align:center;
-font-family: Geneva;
+font-family: 'Century Gothic';
 }
 
 #ender a {
@@ -481,18 +481,5 @@ padding-right:40px;
 #ender a:hover {
   color:#fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
